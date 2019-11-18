@@ -9,108 +9,108 @@ Purpose: The purpose of this project is to learn the basics of HTML
 -->
 <head>
 <title>Belkisa Nukić-CV </title>
+<link href= "C:\Users\ASUS\Desktop\IUS\-Third Year-\Web App Development\styles.css" type="text/css" rel="stylesheet" />
 
 <meta charset="UTF-8"> 
+
+<div class="navigation">
+        <a href="#edu">Education</a>
+        <a href="#sk">Skills</a>
+        <a href="#work">Work Experience</a>
+         <a href="#contact">Contact</a>
+        
+</div>
 
 </head>
 
 <body >
-	<h1>Curriculum Vitae</h1>
-	<hr> 
-
-	<img src="belkisa.png">
-<div id="cv">
 	
-		<div id="name">
-			<h1 >Belkisa Nukić</h1>
+	<div id="title">Curriculum Vitae </div>
 
-			
-		</div>
-		
-		<div id="contactDetails">
+
+	<div id="name">
+		<h1 >Belkisa Nukić</h1>
+		<img src="belkisa.png">
+
+	<div id="contactDetails">
+	    <ul>
+
+	    	<li><b>Adress: </b> Branilaca Kule Grada bb,<br>Gračanica 75320</li>
+		    <li><b>E-mail: </b><a href="mailto:belkisa_nukic@outlook.com" target="_blank">belkisa_nukic@outlook.com</a></li>
+		    <li><b>Mobile phone:</b> +387603230546</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div id="edu">
+		<h1>Education</h1>
+		<ul>
+			<li>
+				<h2>University</h2>
+				<p>Current: International University of Sarajevo- Computer Science and Engineering </p>
+			</li>
+			<li>
+				<h2>High School</h2>
+				<p> 2013-2017: Gymnasium "Dr. Mustafa Kamarić"</p>
+				</li>
+			<li>
+				<h2>Primary School</h2>
+				<p>2004-2013: OŠ"Hasan Kikić"</p>
+			</li>
+		</ul>
+	</div>
+
+
+	<div id="sk">
+		<h1>Key Skills</h1>
+		<ul>
+			<li>C++</li>
+			<li>Java</li>
+			<li>HTML</li>
+			<li>My SQL </li>
+					
+		</ul>
+	
+		<h1>Foreign Languages</h1>
+		<ul>
+		    <li>English (C1)</li>
+			<li>German (B2)</li>
+			<li>Turkish (A2)</li>
+		</ul>
+		<h1>Other Skills</h1>
 			<ul>
-				<li><b>Adress: </b> Branilaca Kule Grada bb, Gračanica 75320</li>
-				<li><b>E-mail: </b><a href="mailto:belkisa_nukic@outlook.com" target="_blank">belkisa_nukic@outlook.com</a></li>
-				<li><b>Mobile phone:</b> +387603230546</li>
-			</ul>
-		</div>
-		<hr>
+				<li>good communication skills</li>
+				<li>very responsible</li>
+				<li>used on work under pressure</li>
+				<li>debating skills</li>
+			</ul>		
 	</div>
-	
-	<div id="mainArea">
-		
-		<div>
-				<h1>Education</h1>
-				<ul>
-					<li>
 			
-					<h3>University</h3>
-					<p>Current- International University of Sarajevo- Computer Science and Engineering </p>
-				    </li>
-				    <li>
-
-					<h2>High School</h2>
-					<p> 2013-2017: Gymnasium "Dr. Mustafa Kamarić"</p>
-				</li>
-				<li>
-
-					<h2>Primary School</h2>
-					<p>2004-2013: OŠ"Hasan Kikić"</p>
-				</li>
-			</ul>
-
-			<hr>
-		   
-			</div>
-
-
-			<div>
-				<h1>Key Skills</h1>
-			
-				<ul>
-					<li>C++</li>
-					<li>Java</li>
-					<li>HTML</li>
-					
-				</ul>
-			</div>
-			<hr>
-			<div>
-				<h1>Foreign Languages</h1>
-			
-				<ul>
-					<li>English (C1)</li>
-					<li>German (B2)</li>
-					<li>Turkish (A2)</li>
-					
-				</ul>
-			</div>
-			<hr>
-			<div >
-				<h1>Work Experience</h1>
-				<p>2018-Part-time job at "Ekom" Gračanica</p>
-			</div>
-			<hr>
-			<div>
-				<h1>Other Skills</h1>
-			
-				<ul>
-					<li>good communication skills</li>
-					<li>very responsible</li>
-					<li>used on work under pressure</li>
-					<li>debating skills</li>
-					
-				</ul>
-
-			</div>
-
-			
-			
-			
-
-		
+	<div id="work" >
+		<h1>Work Experience</h1>
+		<ul> 
+     		<li> Present-Computer Science Representative at SPIUS</li>
+			<li>2018-Part-time job at "Ekom" Gračanica</li>
+		</ul>
 	</div>
-</div>
+			
+ <div id="contact" style="position:relative;">
+        <h1 >Contact Me</h1>
+<div class="contact">
+            <form action="someAction">
+                <label for="name1">First Name</label>
+                <input type="text" id="name1" name="firstname" placeholder="Belkisa">
+
+                <label for="surname">Last Name</label>
+                <input type="text" id="surname" name="lastname" placeholder="Nukic">
+          
+
+
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" placeholder="Write Your message here..." style="height: 100px; width: 300px;  margin: 50px;"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
 </body>
 </html>
